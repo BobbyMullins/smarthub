@@ -1,0 +1,763 @@
+/* General */
+.shadow {
+    box-shadow: none; 
+}
+
+/*Auth Bar*/
+#ribbon-zone {
+    background-color: #fff; 
+    color: #2d53a4; 
+}
+
+#userName {
+    color: #2d53a4;
+}
+
+/* Result Sort Section */
+#result_selector .list-inline {
+    margin-left: 3.5%; 
+    margin-top: 1.5%; 
+}
+
+#result_selector ul li, #result_selector ul li a {
+    color: #a1a2a4; 
+}
+
+#result_selector ul li a {
+    border-bottom: 2px solid transparent; 
+}
+
+#result_selector ul li a:hover {
+    text-decoration: none; 
+    border-bottom: 2px solid #fcb815; 
+}
+
+/*
+#result_selector ul li .active3 {
+    color: #46307b; 
+    border-bottom: 2px solid #fcb815; 
+}
+*/
+
+ #active3 {
+    color: #46307b; 
+    border-bottom: 2px solid #fcb815; 
+}
+
+/* Search Section */
+#search_box {
+    margin-right: 35%; 
+}
+
+/* Uses Original Coveo Classes*/
+.BAInsightCustom .coveo-header-zone {
+    margin-bottom: -1%; 
+}
+
+.BAInsightCustom .coveo-logo-section {
+    margin-left: 0; 
+}
+
+.BAInsightCustom .coveo-header-zone .CoveoLogo, .BAInsightCustom .coveo-header-zone .coveo-logo-section .coveo-logo-column {
+    margin-top: 10%; 
+}
+
+.CoveoSearchInterface .coveo-search-section {
+    max-width: 45%; 
+}
+
+.CoveoSearchInterface.BAInsightCustom .coveo-search-section {
+    margin: 30px auto 40px auto; 
+}
+
+.CoveoSearchbox .CoveoScopedSearch {
+    border-right: 1px solid #efefef; 
+    height: 40px; 
+}
+
+.BAInsightCustom .CoveoSearchButton {
+    background-color: #fff; 
+    border-left: 1px solid #efefef; 
+    border-right: 1px solid #efefef; 
+}
+
+.CoveoScopedSearch .CoveoTab {
+    background-color: #fff; 
+}
+
+/* Results Selector */
+#result_selector {
+    background-color: #fbfbfb; 
+    border-top: 1px solid #f2f2f2; 
+    border-bottom: 1px solid #f2f2f2; 
+    height: 50px; 
+}
+
+/*Main Section*/
+#main_section {
+    background-color: #efeff1; 
+}
+
+/* Sidebar */
+
+/* Uses Original Coveo Classes */
+
+.CoveoSearchInterface.BAInsightCustom .sidebar .coveo-facet-column {
+    margin-bottom: 3%; 
+}
+.CoveoSearchInterface.BAInsightCustom .sidebar {
+    background-color: #fff; 
+    border: 1px solid #efefef; 
+    border-radius: 4px; 
+    margin-top: 5%; 
+    padding: 5% 5%; 
+    width: 100%; 
+}
+
+.search-within-wrapper {
+    box-shadow: none; 
+    display: none; 
+}
+
+.BAInsightCustom .coveo-facet-header-title {
+    color: #46307b; 
+    font-weight: 600; 
+}
+
+.separator {
+    background-color: #f2f2f2; 
+    height: 1px; 
+}
+
+.BAInsightCustom .coveo-facet-value-caption {
+    color: #2d53a4; 
+    font-weight: 400px; 
+}
+
+.BAInsightCustom .coveo-facet-value .coveo-facet-value-checkbox {
+    border-color: #fcb815; 
+    top: 3px; 
+}
+
+.BAInsightCustom .coveo-facet-values {
+    border: 1px solid #efefef; 
+    border-radius: 4px; 
+    margin: 5% 5%; 
+}
+
+.coveo-facet-value {
+    line-height: 12px; 
+}
+
+.coveo-facet-value-exclude .coveo-icon {
+    top: -4px; 
+}
+
+/* Drop Down */
+
+.coveo-facet-settings-popup {
+    width: 12.5%; 
+}
+
+.coveo-facet-settings-section-sort-title {
+    color: #fcb815; 
+}
+
+.coveo-facet-settings-section .coveo-icon-container {
+    display: none; 
+}
+
+.coveo-facet-settings-section .coveo-icon {
+    display: none; 
+}
+
+.coveo-sprites-sort-active, .coveo-facet-settings-section-sort:hover .coveo-icon {
+    display: none; 
+}
+
+.coveo-facet-settings-section-sort.coveo-facet-settings-section {
+    margin-bottom: 0; 
+}
+
+.coveo-facet-settings-item {
+    color: #2d53a4; 
+}
+
+.coveo-facet-settings-disabled .coveo-facet-settings-item {
+    opacity: 1; 
+}
+
+/* Search Button */
+#search_button {
+    background-color: #fcb815; 
+    border: 2px solid #fcb815; 
+    color: #fff; 
+    margin-bottom: 3%; 
+    width: 100%; 
+}
+
+#search_button:hover {
+    background-color: #fff; 
+    color: #fcb815;
+}
+
+/* Slider */
+
+.filter-box {
+    border-radius: 4px; 
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); 
+}
+
+.filter-title h3 {
+    color: #aaaaac; 
+    font-size: 1em; 
+    font-weight: 200; 
+    padding: 5%; 
+}
+
+.CoveoFacetSlider .coveo-slider-container {
+    padding: 7.5% 7.5%; 
+}
+
+.CoveoFacetSlider .coveo-facet-header-title {
+    color: #aaaaac; 
+    font-size: 1em; 
+    font-weight: 200; 
+    padding: 5%;
+}
+
+.CoveoFacetSlider .coveo-facet-values {
+    border: none; 
+    margin: 0; 
+}
+
+
+.coveo-slider-line.coveo-active, .CoveoFacetSlider.coveo-disabled .coveo-slider-line {
+    background-color: #2d53a4; 
+    border-radius: 0; 
+}
+
+.coveo-slider-button, .CoveoFacetSlider.coveo-disabled .coveo-slider-button {
+    width: 15px;
+    height: 15px;
+/*    top: -5px;*/
+    margin-left: -7px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: none;
+    background-image: url('../img/lines.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+.coveo-slider-caption {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    color: #2d53a4;
+    font-size: 16px;
+/*    font-family: 'SofiaProMedium';*/
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+ul {
+    padding-left: 15px;
+    list-style: none;
+    border: none;
+}
+
+ul .panel {
+    color: #2d54a4;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    margin-bottom: 3px;
+    font-size: 14px;
+/*    font-family: 'SofiaProSemiBold';*/
+    line-height: 18px;
+    vertical-align: top;
+    display: block;
+}
+                    
+ul span {
+/*    vertical-align: top;*/
+    font-size: 14px;
+/*    font-family: 'SofiaProSemiBold';*/
+    line-height: 18px;
+}
+            
+ul a {
+    color: #2d54a4;
+    font-size: 14px;
+/*    font-family: 'SofiaProSemiBold';*/
+    line-height: 18px;
+    display: inline-block;
+/*    vertical-align: top;*/
+}
+        
+
+.date-filter {
+    padding: 5% 5%; 
+            
+}
+
+.date-filter .ui-widget.ui-widget-content {
+    background-color: #dee7f3;
+    border: none;
+    height: 5px;
+}
+
+.date-filter .ui-slider-horizontal .ui-slider-range {
+    background-color: #2d53a4;
+}
+
+.date-filter .ui-slider-horizontal .ui-slider-range .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, .ui-button.ui-state-disabled:hover, 
+.ui-button.ui-state-disabled:active {
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    margin-left: -7px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: none;
+    background-image: url('../img/lines.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+        
+.date-list {
+    width: 100%;
+    padding: 5% 5%; 
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.date-list li {
+    display: inline-block;
+/*    width: 100%;*/
+    float: left;
+    color: #2d53a4;
+    font-size: 16px;
+/*    font-family: 'SofiaProMedium';*/
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+                
+ .date-list li:nth-child(even) {
+    text-align: right;
+}
+
+ .date-list li span {
+    color: #5a87c5;
+    font-size: 12px;
+/*    font-family: 'SofiaProBold';*/
+    text-transform: uppercase;
+}
+            
+
+/* People Search */
+
+#people_search {
+    background-color: #fff; 
+    border-radius: 4px; 
+    margin-top: 2.5%; 
+    margin-bottom: 2.5%; 
+    padding: 1% 1%; 
+}
+
+#people_search .col-lg-2, .col-md-2 {
+    border: 1px solid #efefef; 
+    border-radius: 4px; 
+    margin: 2.5% 2.5%;  
+    width: 20%; 
+}
+
+#people_search img {
+    margin-top: 5%; 
+}
+
+#people_search h4 {
+    color: #46307b; 
+    font-size: 15px; 
+    font-weight: 600;
+    padding: 2.5% 2.5%; 
+}
+
+#people_search h5 {
+    color: #2d53a4; 
+}
+
+.email, .phone {
+    color: #cc6427; 
+    overflow: hidden; 
+    position: relative; 
+    padding-left: 25%; 
+}
+
+.email i, .phone i {
+    position: absolute; 
+    left: 1%; 
+    top: 3px; 
+}
+
+/* Equal Column Heights */
+.row.equal-cols {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 250px; 
+  min-height: 250px; 
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row.equal-cols:before,
+.row.equal-cols:after {
+  display: block;
+}
+
+.row.equal-cols > [class*='col-'] {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.row.equal-cols > [class*='col-'] > * {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; 
+}
+
+/* Search Results Section */
+
+.background-default {
+    background-color: transparent; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame {
+    background-color: white; 
+    border-radius: 4px; 
+    padding: 2.5% 2.5%; 
+    margin-bottom: 2.5%;
+    min-height: 220px; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info .CoveoResultLink {
+    color: #46307b; 
+    font-size: 16px; 
+    font-weight: 800;
+    margin-left: .75%; 
+    max-height: 25px; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@excerpt"] {
+    color: #979797; 
+    max-height: 75px; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@clickUri"] {
+    color: #5e7f38; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .PropName {
+    margin-left: 1%; 
+}
+
+.search_result ul {
+    list-style: none; 
+    margin-top: 2%; 
+}
+
+.search_result .img-responsive, .search_result .fa {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+/* Uses original Coveo Style Classes */
+.CoveoSearchInterface.BAInsightCustom .coveo-results-column {
+    width: 100%; 
+}
+
+.CoveoSearchInterface .coveo-results-column {
+    padding: 0; 
+}
+
+.CoveoActionBar {
+    display: none; 
+}
+
+.coveo-bailist-layout-container > .CoveoResult .CoveoResultLink {
+    color: #46307b; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .info {
+    border-bottom: none; 
+}
+
+.coveo-bailist-layout-container .CoveoResult .coveo-result-frame .info .extra-info {
+    display: none; 
+}
+
+/* Right Panel - Trending / Social Results */
+
+#trending_results, #social_results {
+    background-color: #fff; 
+    border-radius: 4px; 
+    margin-top: 5%; 
+}
+
+#trending_results h4, #social_results h4 {
+    color: #46307b; 
+    font-size: 15px; 
+    font-weight: 600;
+    padding: 8% 8%;
+}
+
+#trending_results .separator, #social_results .separator {
+    margin-bottom: 2%; 
+}
+
+#trending_results .img-responsive, #social_results .img-responsive {
+    position: absolute; 
+}
+
+/*
+#trending_results p, #social_results p {
+    position: relative; 
+    padding-left: 12%; 
+     
+}
+*/
+
+/* Uses Original Coveo Classes */
+.BAInsightCustom .CoveoContentBySearch .CoveoResultList {
+    padding: 2% 2%; 
+    width: auto; 
+}
+.BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .CoveoIcon {
+    width: 34px; 
+}
+
+.BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .CoveoFieldValue {
+    padding: 0 5%; 
+}
+
+.BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@title"] {
+    color: #636363; 
+    font-weight: 400; 
+}
+
+/* Footer */
+
+footer {
+    margin-bottom: 5%; 
+}
+
+.CoveoQuerySummary:nth-child(1) {
+    color: #46307b;  
+}
+
+/* Uses Original Coveo Classes */
+.BAInsightCustom .CoveoPager {
+    display: none; 
+}
+
+.BAInsightCustom .coveo-results-header {
+    margin-left: 25%; 
+    width: 50%; 
+}
+
+.BAInsightCustom .coveo-summary-section {
+    width: auto; 
+}
+
+.BAInsightCustom .coveo-summary-section .CoveoQuerySummary {
+    font-size: 16px; 
+}
+
+.CoveoSearchInterface .coveo-highlight {
+    color: #cc6427; 
+}
+
+.BAInsightCustom .coveo-results-per-page-text {
+    color: #a2a2a4; 
+    font-size: 16px; 
+}
+
+.BAInsight Custom .coveo-results-per-page-list-item-text {
+    color: #4462a8; 
+}
+
+.BAInsightCustom .coveo-results-per-page-list-item {
+    background-color: transparent; 
+}
+
+.coveo-active {
+    background-color: #2d53a4; 
+    border-radius: 100%; 
+    color: #fff; 
+}
+
+.BAInsightCustom .coveo-pager-list-item.coveo-active, .BAInsightCustom .coveo-active.coveo-results-per-page-list-item, .BAInsightCustom .coveo-active.coveo-results-per-page-list-item, .BAInsightCustom .coveo-pager-list-item:hover, .BAInsightCustom .coveo-results-per-page-list-item:hover, .BAInsightCustom .coveo-results-per-page-list-item:hover {
+    background-color: #2d53a4; 
+    border-radius: 100%; 
+    color: #fff; 
+}
+
+.CoveoSort  {
+    color: #b7b8ba; 
+}
+
+.BAInsightCustom .CoveoSort.coveo-selected {
+    color: #46307b; 
+}
+
+/* *************************************** */
+/*               Media Queries             */
+/* *************************************** */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .email, .phone {
+        margin-bottom: 1%; 
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px){
+    .BAInsightCustom .coveo-results-header {
+        margin-left: 12.5%; 
+        width: 75%; 
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .BAInsightCustom.coveo-small-interface .coveo-header-zone {
+        margin-left: 12.5%; 
+        width: 75%; 
+    }
+    .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header-wrapper {
+        top: 15%; 
+    }
+    #result_selector {
+        text-align: center; 
+    }
+    .CoveoSearchInterface.BAInsightCustom.coveo-small-facets .sidebar {
+        display: none; 
+    }
+    #trending_results, #social_results {
+        display: inline-block; 
+        width: 100%; 
+/*        margin: .25% 2.25% 0 2.5%; */
+    }
+    #trending_results h4, #social_results h4 {
+        padding: 3% 4%; 
+    }
+    .BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@title"] {
+        width: 100%; 
+    }
+    .BAInsightCustom .coveo-summary-section {
+        width: 100%; 
+    }
+    .BAInsightCustom.coveo-small-interface .CoveoResultsPerPage {
+        float: none; 
+        margin-left: 5%; 
+        width: 90%; 
+    }
+    .BAInsightCustom .CoveoSort {
+        margin-left: 62.5%; 
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .BAInsightCustom.coveo-small-interface .coveo-header-zone {
+        width: 100%; 
+    }
+    .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header-wrapper, .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header-wrapper {
+        top: 15%; 
+    }
+    #result_selector {
+        text-align: center; 
+    }
+    .CoveoSearchInterface.BAInsightCustom.coveo-small-facets .sidebar {
+        display: none; 
+    }
+    #people_search {
+        margin: 2.5% 1.5% 5% 1.5%; 
+        width: 97%; 
+    }
+    #people_search .col-lg-2, .col-md-2 {
+        margin: 1% 2.5%; 
+    }
+    #trending_results h4, #social_results h4 {
+        padding: 3% 4%; 
+    }
+    #trending_results, #social_results {
+        margin-left: 1.5%; 
+        width: 97%; 
+    }
+    #trending_results,  {
+        margin-top: 1%; 
+    }
+    #social_results {
+        margin-top: 2%; 
+    }
+    .BAInsightCustom .coveo-summary-section {
+        width: 100%; 
+    }  
+    .coveo-results-header > *:not(:first-child) {
+        margin-left: 31%; 
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header-wrapper, .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header-wrapper {
+        top: 15%; 
+    }
+    #result_selector {
+        text-align: center; 
+    }
+    #people_search {
+        margin: 2.5% 2.5% 5% 2.5%; 
+        width: 95%; 
+    }
+    #people_search .col-lg-2, .col-md-2 {
+        margin: 8% 2.5%; 
+        width: 45%; 
+    }  
+    #trending_results, #social_results {
+        margin-left: 2.5%; 
+        width: 95%; 
+    }  
+    #person3, #person4 {
+        display: none; 
+    } 
+    .coveo-results-header > *:not(:first-child) {
+        margin-left: 17.5%; 
+    }
+    
+}
+
+

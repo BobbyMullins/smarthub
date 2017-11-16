@@ -1,0 +1,44 @@
+#ribbon-zone{
+/*    width:100%;*/
+/*    display: inline-block;*/
+    background-color:#3498db;
+    color:#FFFFFF;
+}
+
+#userName{
+    font-size: 1.2em;
+    padding: 0.7em 1em;
+    display: inline-block;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#userName img{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 50%;
+    float:left;
+}
+#userName div{
+    display: inline-block;
+    padding-right: 5px;
+    float: left;
+    padding-top: 2px;
+}
+
+.leftAlign{
+    width: calc(100% - 250px);
+    height: 50px;
+    float: left;
+}
+
+.username-wrapper{
+    float: right;
+    color:#FFFFFF;
+    margin-top: 1.5%; 
+    padding-right: 20px;
+}
+.username-wrapper:hover{
+    background-color:#F1C40F;
+}

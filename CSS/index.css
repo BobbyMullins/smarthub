@@ -1,0 +1,230 @@
+body {
+    background-color: #efeff1; 
+    height: 100vh; 
+}
+
+/*Auth Bar*/
+#ribbon-zone {
+    background-color: #fff; 
+    color: #2d53a4; 
+}
+
+#userName {
+    color: #2d53a4;
+}
+
+/* Logo */
+#logo {
+    margin-left: 37.5%; 
+    width: 25%; 
+}
+
+/* Search Box */
+#search_header { 
+    border: none; 
+/*    height: 7em;  */
+}
+
+#search_box {
+    width: 50%; 
+}
+
+/*
+#search_input {
+    border-radius: 25px; 
+}
+*/
+
+/* Uses Original Coveo Classes */
+.CoveoSearchbox .CoveoScopedSearch {
+    border-right: 1px solid #efefef; 
+    height: 40px; 
+}
+
+.BAInsightCustom .CoveoSearchButton {
+    background-color: #fff; 
+    border: none; 
+    border-left: 1px solid #efefef; 
+}
+
+
+/* Tiles */
+.separator {
+    background-color: #f2f2f2; 
+    height: 1px; 
+}
+
+#landing_categories {
+    border-top: none; 
+}
+
+.tile {   
+    background-color: white;
+    border-radius: 4px; 
+/*    margin: 8px 8px;*/
+/*    box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);*/
+    
+}
+
+.fa {
+    color: #46307b; 
+    display: block; 
+    position: relative; 
+    right: 24px; 
+    top: 19px; 
+}
+
+/* Users Original Coveo Classes */
+
+.BAInsightCustom .CoveoContentBySearch .CoveoResultList {
+    margin-top: 2%; 
+    padding: 0; 
+    width: 100%; 
+}
+
+.CoveoResult:nth-child(n+3) {
+    display: none; 
+}
+
+.BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .CoveoIcon {
+    margin-top: 4%; 
+    width: 32px; 
+}
+
+.CoveoContentBySearch .content-by-search-title {
+    background-color: #fff; 
+    color: #46307b; 
+    text-align: left; 
+}
+
+.BAInsightCustom .CoveoContentBySearch {
+    margin-bottom: 0; 
+    box-shadow: none; 
+}
+
+/* Equal Column Heights */
+.row.equal-cols {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 250px; 
+  min-height: 250px; 
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row.equal-cols:before,
+.row.equal-cols:after {
+  display: block;
+}
+
+.row.equal-cols > [class*='col-'] {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.row.equal-cols > [class*='col-'] > * {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; 
+}
+
+/* 5 column centering */
+
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-5ths {
+        margin-left: 1.25%; 
+        margin-right: 1.25%; 
+        float: left;
+        width: 17.5%;
+}
+
+.col-lg-5ths {
+        margin-left: 1.25%; 
+        margin-right: 1.25%; 
+        float: left;
+        width: 17.5%;
+}
+
+
+/* *************************************** */
+/*               Media Queries             */
+/* *************************************** */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .CoveoResult:nth-child(n+2) {
+        display: none; 
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+     .CoveoResult:nth-child(n+2) {
+        display: none; 
+    }
+    
+    .BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@title"] {
+        max-height: 75px; 
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    #logo {
+        margin-left: 33.33%; 
+        width: 33.33%; 
+    }
+    #search_box {
+        width: 66%; 
+        margin-left: 16.5%; 
+    }
+    .CoveoSearchInterface.coveo-small-interface .CoveoSearchbox {
+        margin-right: 0; 
+    }
+    .col-sm-5ths {
+        width: 45%; 
+        margin: 0 2.5% 2.5% 2.5%; 
+    }
+    
+    .col-sm-5ths-offset {
+        width: 45%; 
+        margin: 0 27.5% 2.5% 27.5%; 
+        
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    #logo {
+        margin-left: 25%; 
+        width: 50%; 
+    }
+    
+    #search_box {
+        margin-left: 2.5%; 
+        width: 95%; 
+    }
+    .col-xs-5ths {
+        width: 75%; 
+        margin: 0 12.5% 2.5% 12.5%; 
+    }
+}
+

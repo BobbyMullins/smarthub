@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, height=device-height" >
+    <title>SmartHub Landing Page</title>
+    <script src="/modules/O365/adal.js"></script>
+    <script src="/js/CoveoJsSearch.js"></script>
+    <script src="/js/templates/templatesNew.js"></script> 
+    <script id="SPOAuth" src="/modules/O365/SPOAuth.js" data-tenant="baidemoenv.onmicrosoft.com" data-client-id="cc95a12d-9923-4426-83ed-113293693d47"  data-tenant-url="https://baidemoenv.sharepoint.com" data-rest-uri="/services/FederatorService.svc" data-redirect-uri="/ProactiveSearch/Results.html"></script>
+    <script  src="/modules/Ribbon/ribbon.js"></script>
+    <!-- Font Awesome (for icons) -->
+    <script src="https://use.fontawesome.com/2c6ac1fdb1.js"></script>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional  Bootstrap Theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Coveo Stylesheet -->
+    <link rel="stylesheet" href="/css/CoveoFullSearchNewDesign.css"/> 
+    <!-- Ribbon Stylesheet   -->
+    <link  rel="stylesheet"  href="/modules/Ribbon/ribbon.css" />
+    <!-- Custom CSS -->
+    <link rel='stylesheet' href='/ProactiveSearch/CSS/index.css'>  
+  </head>  
+
+  <body id="search" class="CoveoSearchInterface BAInsightCustom standaloneSearchInteface" data-enable-debug-info="false" data-auto-trigger-query="false" data-hide-until-first-query="false" data-enable-duplicate-filtering="true" data-enable-history="true" data-design="new">
+    <div class="coveo-header-zone standalone-header-zone">
+<!--
+        <div class="coveo-logo-section standalone-logo-section">
+            <div class="CoveoLogo standalone-logo"></div>
+        </div> 
+-->
+        <div id='search_header' class='container-fluid center-block'>
+            <img id='logo' class='img-responsive' src="Images/BA-Insight-logo.png" alt='BA Insight Logo'>
+            <div id='search_box' class="coveo-search-section"> 
+            <div id='search_input' class="CoveoSearchbox" data-placeholder="Search..." data-enable-omnibox="true" data-add-scoped-search="true"></div>
+                <div class="CoveoTypeAhead" data-sources="b29924a9-ec32-4c10-8892-a544b69ee121,Everything;b09a7990-05ea-4af9-81ef-edfab16c4e31,People" data-refiner-limit = "30" data-refiners="@author,Display Author;@FileType,Result type;"></div> 
+            </div>
+        </div>
+    </div>
+
+<!-- Tile layout   -->
+    <div id='landing_categories' class='container-fluid'>
+        <div class='row equal-cols'>
+              <div class='col-lg-5ths col-md-5ths col-sm-5ths col-xs-5ths tile'>
+                <div class="CoveoContentBySearch" data-query-text='FederatorBackends:"Personalization" *' data-source-id="c52e1486-2bdd-4a8e-92cb-c0310c7a5e03" data-results-per-page='5' data-hide-until-first-query="false">
+                    <div class="content-by-search-title"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>Recent Documents for my Office</div>
+                    <div class="separator"></div>
+                    <div class="CoveoResultList"></div>         
+                </div>
+            </div> 
+            
+            <div class='col-lg-5ths col-md-5ths col-sm-5ths col-xs-5ths tile'>
+                <div class="CoveoContentBySearch" data-query-text='FederatorBackends:"Personalization" *' data-source-id="e62baf0b-15a4-4498-99c0-d35de7290b0e" data-results-per-page='5' data-hide-until-first-query="false">
+                    <div class="content-by-search-title"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>Recent Documents for my Job Role</div>
+                    <div class="separator"></div>
+                    <div class="CoveoResultList"></div>
+                </div>            
+            </div>
+            
+            <div class='col-lg-5ths col-md-5ths col-sm-5ths col-xs-5ths tile'>
+                <div class="CoveoContentBySearch" data-query-text='FederatorBackends:"Personalization" *' data-source-id="54779fa2-b4ea-4068-a3ee-f727074b78fe" data-results-per-page='5' data-hide-until-first-query="false">
+                    <div id='search_content_title' class="content-by-search-title"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>Recent Documents for my Office</div>
+                    <div class="separator"></div>
+                    <div class="CoveoResultList"></div>         
+               </div>
+            </div>
+            
+            <div class='col-lg-5ths col-md-5ths col-sm-5ths col-xs-5ths tile'>
+                <div class="CoveoContentBySearch" data-query-text='FederatorBackends:"Personalization" *' data-source-id="68c6c664-f4fb-4f58-bfee-7197e7e0c140" data-results-per-page='5' data-hide-until-first-query="false">
+                    <div class="content-by-search-title"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>Recent Documents for my Office</div>
+                    <div class="separator"></div>
+                   <div class="CoveoResultList"></div>         
+               </div>
+            </div>
+            
+            <div class='col-lg-5ths col-md-5ths col-sm-5ths-offset col-xs-5ths tile'>
+                <div class="CoveoContentBySearch" data-query-text='FederatorBackends:"Personalization" *' data-source-id="58c6c664-f4fb-4f58-bfee-7197e7e0c140" data-results-per-page='5' data-hide-until-first-query="false">
+                    <div class="content-by-search-title"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>Recent Documents relating to my Job Role</div>
+                    <div class="separator"></div>
+                   <div class="CoveoResultList"></div>         
+               </div>
+            </div>   
+        </div>
+    </div> 
+      
+    <div class="coveo-tab-section">
+      <a class="CoveoTab" data-icon="coveo-sprites-file-small" data-id="b29924a9-ec32-4c10-8892-a544b69ee121" data-expression='{searchboxquery} FederatorBackends:"*"' data-caption="Everything"></a>
+      <a class="CoveoTab" data-icon="coveo-sprites-user-small" data-id="b09a7990-05ea-4af9-81ef-edfab16c4e31" data-expression='{searchboxquery} FederatorBackends:"*"' data-caption="People"></a>
+      <a class="CoveoTab" data-icon="coveo-sprites-list-small" data-id="459dd1b7-216f-4386-9709-287d5d22f568" data-expression='{searchboxquery} FederatorBackends:"*"' data-caption="Conversations"></a>
+    </div>
+    <!-- Bootstrap jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
