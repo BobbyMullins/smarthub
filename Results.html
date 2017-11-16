@@ -53,7 +53,7 @@
             <div class="coveo-main-section hidden">
                 <div class='col-lg-3 col-md-3'>
                    <div id='refiner_section' class="sidebar">
-                        <div class="coveo-facet-column">
+                        <div id='refiners' class="coveo-facet-column">
 <!--                            <div class="CoveoSearchWithin"></div>-->
                             <div class="CoveoFacet" data-title="Display Author" data-field="@author" data-available-sorts='occurrences,alphaascending,alphadescending'  data-enable-toggling-operator='true'></div>
                             <div class="CoveoFacet" data-title="Refine Results" data-field="@filetype" data-available-sorts='occurrences,alphaascending,alphadescending' data-lookup-field="@FileType"></div>
@@ -62,7 +62,7 @@
                             <div class="CoveoFacet" data-title="ContentSource" data-field="@ElasticIndexName" data-lookup-field="@ContentSource"></div>
                         </div>
                         <!-- Search Button -->
-                        <button id='search_button' class='btn btn-lg'>Search</button>
+<!--                        <button id='search_button' class='btn btn-lg'>Search</button>-->
                         <!-- Slider -->
 <!--
                         <div class="filter-box">
@@ -82,7 +82,9 @@
                             </div>
                         </div>
 -->
-                        <div id='Refiner_Section' class="CoveoFacetSlider" data-title="Modified Date" data-lookup-field="@date" data-field="@date" data-slider-graph-steps="20" data-range-slider="true" data-date-field="true"></div>
+                        <div id='slider'>
+                            <div id='refiner-section' class="CoveoFacetSlider" data-title="Modified Date" data-lookup-field="@date" data-field="@date" data-slider-graph-steps="20" data-range-slider="true" data-date-field="true"></div>
+                        </div>
 
 
                         <div class="coveo-tab-section">
@@ -90,7 +92,7 @@
                             <a class="CoveoTab" data-icon="coveo-sprites-user-small" data-id="b09a7990-05ea-4af9-81ef-edfab16c4e31" data-expression='{searchboxquery} FederatorBackends:"*"' data-caption="People"></a>
                             <a class="CoveoTab" data-icon="coveo-sprites-list-small" data-id="459dd1b7-216f-4386-9709-287d5d22f568" data-expression='{searchboxquery} FederatorBackends:"*"' data-caption="Conversations"></a>
                         </div>
-                    </div> <!-- Sidebar -->
+                    </div> <!-- Sidebar / Refiner Section -->
                 </div> <!-- COL -->
                 <div class='col-lg-6 col-md-6'>
                     <div id='people_search'>
