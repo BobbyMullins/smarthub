@@ -82,9 +82,11 @@ body {
     width: 100%; 
 }
 
+/*
 .CoveoResult:nth-child(n+3) {
     display: none; 
 }
+*/
 
 .BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .CoveoIcon {
     margin-top: 4%; 
@@ -107,8 +109,9 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-height: 250px; 
-  min-height: 250px; 
+  margin-bottom: 2.5%; 
+  max-height: 650px; 
+  min-height: 450px; 
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -170,16 +173,20 @@ body {
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+/*
     .CoveoResult:nth-child(n+2) {
         display: none; 
     }
+*/
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+/*
      .CoveoResult:nth-child(n+2) {
         display: none; 
     }
+*/
     
     .BAInsightCustom .CoveoContentBySearch .CoveoResult .coveo-result-frame .info .list-info-wrapper .list-info [data-field="@title"] {
         max-height: 75px; 
